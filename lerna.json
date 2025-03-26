@@ -1,0 +1,15 @@
+{
+  "version": "independent",
+  "npmClient": "pnpm",
+  "useWorkspaces": true,
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore: publish packages"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore: publish packages"
+    }
+  }
+} 

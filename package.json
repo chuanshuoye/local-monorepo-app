@@ -1,0 +1,27 @@
+{
+  "name": "local-monorepo-app",
+  "version": "1.0.0",
+  "description": "基于uni-app构建的多端应用monorepo项目",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter app dev",
+    "build": "pnpm --filter app build",
+    "dev:h5": "pnpm --filter app dev:h5",
+    "build:h5": "pnpm --filter app build:h5",
+    "dev:mp-weixin": "pnpm --filter app dev:mp-weixin",
+    "build:mp-weixin": "pnpm --filter app build:mp-weixin",
+    "dev:app": "pnpm --filter app dev:app-plus",
+    "build:app": "pnpm --filter app build:app-plus",
+    "dev:mp-alipay": "pnpm --filter app dev:mp-alipay",
+    "build:mp-alipay": "pnpm --filter app build:mp-alipay",
+    "build:packages": "pnpm -r --filter \"./packages/**\" --filter \"./utils\" build"
+  },
+  "keywords": ["uni-app", "vue3", "vite", "monorepo", "pnpm"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3",
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  }
+}
