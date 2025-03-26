@@ -17,6 +17,9 @@
     "dev:quickapp-webview": "uni -p quickapp-webview",
     "dev:quickapp-webview-huawei": "uni -p quickapp-webview-huawei",
     "dev:quickapp-webview-union": "uni -p quickapp-webview-union",
+    "dev:app-plus": "uni -p app-plus",
+    "dev:ios": "uni -p app-plus ios",
+    "dev:android": "uni -p app-plus android",
     "build:custom": "uni build -p",
     "build:h5": "uni build",
     "build:h5:ssr": "uni build --ssr",
@@ -31,7 +34,10 @@
     "build:mp-xhs": "uni build -p mp-xhs",
     "build:quickapp-webview": "uni build -p quickapp-webview",
     "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
-    "build:quickapp-webview-union": "uni build -p quickapp-webview-union"
+    "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
+    "build:app-plus": "uni build -p app-plus",
+    "build:ios": "uni build -p app-plus ios",
+    "build:android": "uni build -p app-plus android"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-4040520250104002",
